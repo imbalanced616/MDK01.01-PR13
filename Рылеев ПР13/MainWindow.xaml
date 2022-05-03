@@ -1,0 +1,62 @@
+﻿<Window x:Class="Рылеев_ПР13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Рылеев_ПР13"
+        mc:Ignorable="d"
+        Title="Практическая работа №13. Создание класса." Height="650" Width="800" Background="Wheat">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1.2*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Vertical" Grid.ColumnSpan="2" Background="#72217D">
+            <TextBlock Text="Практическая работа №13" Style="{StaticResource txtTitle}"/>
+            <TextBlock Text="Выполнил студент 2 курса группы ИСП.20А" Style="{StaticResource txtTitle}"/>
+            <TextBlock Text="Рылеев Александр" Style="{StaticResource txtTitle}"/>
+            <TextBlock Text="Вариант №4" Style="{StaticResource txtTitle}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.RowSpan="2" Orientation="Vertical" Margin="0,15,0,0">
+            <Button Name="btnPrint" Content="Список работников"
+                    Style="{StaticResource btnStyle}" Click="btnPrint_Click"/>
+            <TextBlock Text="Поиск:" Style="{StaticResource txtText}" Margin="10,10,0,0"/>
+            <TextBox Name="txbSearch" TextChanged="txbSearch_TextChanged" Style="{StaticResource txbStyle}"/>
+            <Button Name="btnAdd" Content="Добавить работника" Margin="5,15,5,5"
+                    Style="{StaticResource btnStyle}" Click="btnAdd_Click"/>
+            <Button Name="btnClearAll" Content="Очистить" Margin="5,15,5,5"
+                    Style="{StaticResource btnStyle}" Click="btnClearAll_Click"/>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="10,10,0,0">
+                <TextBlock Text="Сортировка:" Style="{StaticResource txtText}"/>
+                <RadioButton Content="От А до Я" Name="rbUp" Checked="rbUp_Checked" Style="{StaticResource rbText}"/>
+                <RadioButton Content="От Я до А" Name="rbDown" Checked="rbDown_Checked" Style="{StaticResource rbText}"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="10,10,0,0">
+                <TextBlock Text="Фильтр по стажу:" Style="{StaticResource txtText}"/>
+                <ComboBox Name="cmbFilter" SelectionChanged="cmbFilter_SelectionChanged"
+                          Width="210" Style="{StaticResource cmbText}">
+                    <ComboBoxItem Content="От 0 до 10" Style="{StaticResource cmbIText}"/>
+                    <ComboBoxItem Content="От 11 до 20" Style="{StaticResource cmbIText}"/>
+                    <ComboBoxItem Content="От 21 и более" Style="{StaticResource cmbIText}"/>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+        <Image Grid.Row="1" Grid.Column="1" Source="Resources/Task.png"
+               Stretch="Uniform" Height="143"/>
+        <DataGrid Name="DtgListWorkers" IsReadOnly="True" Margin="10,0,10,10" AutoGenerateColumns="False"
+                  Grid.Row="2" Grid.Column="1" Background="Snow" Foreground="#72217D"
+                  FontSize="17" FontFamily="Calibri" FontWeight="Bold">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Фамилия И.О." Width="*" Binding="{Binding FIO}"/>
+                <DataGridTextColumn Header="Должность" Width="*" Binding="{Binding POST}"/>
+                <DataGridTextColumn Header="Год поступления" Width="*" Binding="{Binding ENTRANCE}"/>
+                <DataGridTextColumn Header="Стаж работы" Width="*" Binding="{Binding EXPERIENCE}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,51 @@
+C:\Users\Студент\source\repos\Рылеев ПР13\bin\Debug\Рылеев ПР13.exe.config
+C:\Users\Студент\source\repos\Рылеев ПР13\bin\Debug\Рылеев ПР13.exe
+C:\Users\Студент\source\repos\Рылеев ПР13\bin\Debug\Рылеев ПР13.pdb
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\MainWindow.g.cs
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\App.g.cs
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\Рылеев ПР13_MarkupCompile.cache
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\Рылеев ПР13_MarkupCompile.lref
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\App.baml
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\MainWindow.baml
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\Рылеев ПР13.g.resources
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\Рылеев_ПР13.Properties.Resources.resources
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\Рылеев ПР13.csproj.GenerateResource.cache
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\Рылеев ПР13.csproj.CoreCompileInputs.cache
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\Рылеев ПР13.exe
+C:\Users\Студент\source\repos\Рылеев ПР13\obj\Debug\Рылеев ПР13.pdb
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\bin\Debug\Рылеев ПР13.exe.config
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\bin\Debug\Рылеев ПР13.exe
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\bin\Debug\Рылеев ПР13.pdb
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\MainWindow.g.cs
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\App.g.cs
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\Рылеев ПР13_MarkupCompile.cache
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\Рылеев ПР13_MarkupCompile.lref
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\App.baml
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\MainWindow.baml
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\Рылеев ПР13.g.resources
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\Рылеев_ПР13.Properties.Resources.resources
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\Рылеев ПР13.csproj.GenerateResource.cache
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\Рылеев ПР13.csproj.CoreCompileInputs.cache
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\Рылеев ПР13.exe
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\Рылеев ПР13.pdb
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\Рылеев ПР13.csproj.AssemblyReference.cache
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\WindowAddWorker.g.cs
+F:\МДК 01.01\ПР13 СДЕЛАТЬ ДО 03.05\Рылеев ПР13\obj\Debug\WindowAddWorker.baml
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\bin\Debug\Рылеев ПР13.exe.config
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\bin\Debug\Рылеев ПР13.exe
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\bin\Debug\Рылеев ПР13.pdb
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\Рылеев ПР13.csproj.AssemblyReference.cache
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\MainWindow.g.cs
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\WindowAddWorker.g.cs
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\App.g.cs
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\Рылеев ПР13_MarkupCompile.cache
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\Рылеев ПР13_MarkupCompile.lref
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\App.baml
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\MainWindow.baml
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\WindowAddWorker.baml
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\Рылеев ПР13.g.resources
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\Рылеев_ПР13.Properties.Resources.resources
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\Рылеев ПР13.csproj.GenerateResource.cache
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\Рылеев ПР13.csproj.CoreCompileInputs.cache
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\Рылеев ПР13.exe
+D:\Пустая папка\Учёба\МДК 01.01\ПР13\Рылеев ПР13\obj\Debug\Рылеев ПР13.pdb

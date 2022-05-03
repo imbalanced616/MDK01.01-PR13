@@ -1,0 +1,51 @@
+﻿<Window x:Class="Рылеев_ПР13.WindowAddWorker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Рылеев_ПР13"
+        mc:Ignorable="d"
+        Title="Добавление работника" Height="370" Width="530" Background="Wheat">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Background="#72217D"/>
+        <TextBlock Text="Введите данные о работнике для добавления"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Style="{StaticResource txtTitle}" Background="#72217D"/>
+        <StackPanel Orientation="Vertical" Grid.Row="1"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Фамилия И.О.: " Style="{StaticResource txtText}"
+                           Width="160" Height="27.5"/>
+                <TextBox Name="txbFIO" Style="{StaticResource txbStyle}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Должность: " Style="{StaticResource txtText}"
+                           Width="160" Height="27.5"/>
+                <TextBox Name="txbPOST" Style="{StaticResource txbStyle}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Год поступления: " Style="{StaticResource txtText}"
+                           Width="160" Height="27.5"/>
+                <TextBox Name="txbENTRANCE" TextChanged="txbENTRANCE_TextChanged"
+                         Style="{StaticResource txbStyle}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Стаж работы: " Style="{StaticResource txtText}"
+                           Width="160" Height="27.5"/>
+                <TextBlock Text="" Name="txtEXPERIENCE" TextAlignment="Center" FontSize="25"
+                           Margin="5" Width="200" Style="{StaticResource txtText}"/>
+            </StackPanel>
+            <Button Name="btnADD" Content="Добавить работника"
+                    Click="btnADD_Click" Height="45"
+                    Margin="0,20,0,0" Style="{StaticResource btnStyle}"/>
+        </StackPanel>
+    </Grid>
+</Window>
